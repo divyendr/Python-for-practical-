@@ -1,0 +1,7 @@
+def count_words(sentence):
+    words = sentence.split()
+    return len(words)
+
+# Example usage:
+text = "Hello world! This is a simple sentence."
+print(f"Number of words in the sentence: {count_words(text)}")
