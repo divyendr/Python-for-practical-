@@ -1,0 +1,9 @@
+def sum_of_list(nums):
+    total = 0
+    for num in nums:
+        total += num
+    return total
+
+# Example usage:
+numbers = [1, 2, 3, 4, 5]
+print(f"Sum of elements in the list: {sum_of_list(numbers)}")
