@@ -1,0 +1,10 @@
+def simple_interest(principal, rate, time):
+    interest = (principal * rate * time) / 100
+    return interest
+
+# Example usage:
+principal_amount = 1000
+annual_rate = 3.5
+years = 2
+print(f"Simple interest for ${principal_amount} at {annual_rate}% per annum over {years} years is ${simple_interest(principal_amount, annual_rate, years)}")
+
