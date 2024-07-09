@@ -1,0 +1,7 @@
+def power(base, exp):
+    return base ** exp
+
+# Example usage:
+base = 2
+exponent = 5
+print(f"{base} raised to the power of {exponent} is {power(base, exponent)}")
