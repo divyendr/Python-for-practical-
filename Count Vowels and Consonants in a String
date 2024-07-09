@@ -1,0 +1,11 @@
+def count_vowels_consonants(text):
+    vowels = "aeiouAEIOU"
+    num_vowels = sum(1 for char in text if char in vowels)
+    num_consonants = len(text) - num_vowels
+    return num_vowels, num_consonants
+
+# Example usage:
+sentence = "Hello, World!"
+vowels, consonants = count_vowels_consonants(sentence)
+print(f"Number of vowels: {vowels}")
+print(f"Number of consonants: {consonants}")
