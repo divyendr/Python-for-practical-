@@ -1,0 +1,12 @@
+import string
+
+def is_pangram(sentence):
+    alphabet = set(string.ascii_lowercase)
+    return set(sentence.lower()) >= alphabet
+
+# Example usage:
+text = "The quick brown fox jumps over the lazy dog"
+if is_pangram(text):
+    print(f"'{text}' is a pangram.")
+else:
+    print(f"'{text}' is not a pangram.")
